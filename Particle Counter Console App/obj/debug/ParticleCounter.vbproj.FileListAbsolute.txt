@@ -1,0 +1,26 @@
+C:\Users\Administrator\Desktop\ParticleCounter\bin\Debug\ParticleCounter.exe.config
+C:\Users\Administrator\Desktop\ParticleCounter\bin\Debug\ParticleCounter.exe
+C:\Users\Administrator\Desktop\ParticleCounter\bin\Debug\ParticleCounter.pdb
+C:\Users\Administrator\Desktop\ParticleCounter\bin\Debug\ParticleCounter.xml
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.vbproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.Resources.resources
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.exe
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.xml
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.pdb
+C:\Users\Administrator\Desktop\ParticleCounter\obj\Debug\ParticleCounter.vbproj.AssemblyReference.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\bin\Debug\ParticleCounter.exe.config
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\bin\Debug\ParticleCounter.exe
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\bin\Debug\ParticleCounter.pdb
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\bin\Debug\ParticleCounter.xml
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.vbproj.AssemblyReference.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.vbproj.SuggestedBindingRedirects.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.vbproj.ResolveComReference.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.Resources.resources
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.vbproj.GenerateResource.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.vbproj.CoreCompileInputs.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.exe
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.xml
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\ParticleCounter\obj\Debug\ParticleCounter.pdb
