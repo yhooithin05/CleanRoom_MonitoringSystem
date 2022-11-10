@@ -1,0 +1,24 @@
+C:\Users\Administrator\Desktop\TempHum\obj\Debug\TempHum.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\TempHum\obj\Debug\TempHum.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\TempHum\obj\Debug\TempHum.Resources.resources
+C:\Users\Administrator\Desktop\TempHum\obj\Debug\TempHum.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\TempHum\obj\Debug\TempHum.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\TempHum\bin\Debug\TempHum.exe.config
+C:\Users\Administrator\Desktop\TempHum\bin\Debug\TempHum.exe
+C:\Users\Administrator\Desktop\TempHum\bin\Debug\TempHum.pdb
+C:\Users\Administrator\Desktop\TempHum\bin\Debug\TempHum.xml
+C:\Users\Administrator\Desktop\TempHum\obj\Debug\TempHum.exe
+C:\Users\Administrator\Desktop\TempHum\obj\Debug\TempHum.xml
+C:\Users\Administrator\Desktop\TempHum\obj\Debug\TempHum.pdb
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\bin\Debug\TempHum.exe.config
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\bin\Debug\TempHum.exe
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\bin\Debug\TempHum.pdb
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\bin\Debug\TempHum.xml
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\obj\Debug\TempHum.vbproj.AssemblyReference.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\obj\Debug\TempHum.vbproj.SuggestedBindingRedirects.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\obj\Debug\TempHum.Resources.resources
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\obj\Debug\TempHum.vbproj.GenerateResource.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\obj\Debug\TempHum.vbproj.CoreCompileInputs.cache
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\obj\Debug\TempHum.exe
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\obj\Debug\TempHum.xml
+C:\Users\hooyeo61\Desktop\2018 Sem to 2022 Sem\2022\Software Project FYP\FYP3\Backup\TempHum\obj\Debug\TempHum.pdb
