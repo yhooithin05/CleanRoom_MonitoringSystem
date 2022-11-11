@@ -182,9 +182,6 @@ Module Program
         End If
 
 
-        log.WriteLine(text)
-        log.Close()
-
     End Sub
 
 
