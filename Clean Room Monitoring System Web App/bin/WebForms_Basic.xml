@@ -1,0 +1,2138 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SensorWeb
+</name>
+</assembly>
+<members>
+<member name="T:SensorWeb.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SensorWeb.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:SensorWeb.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:SensorWeb.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:SensorWeb.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:SensorWeb.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:SensorWeb._Default._hfAlert">
+<summary>
+hfAlert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Timer1">
+<summary>
+Timer1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td1k_p1">
+<summary>
+td1k_p1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedPt1">
+<summary>
+lblLastUpdatedPt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._divPT1KContainer">
+<summary>
+divPT1KContainer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl1kp1">
+<summary>
+lbl1kp1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLimit1">
+<summary>
+lblLimit1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td1k_p2">
+<summary>
+td1k_p2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedPt2">
+<summary>
+lblLastUpdatedPt2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl1kp2">
+<summary>
+lbl1kp2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label22">
+<summary>
+Label22 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td1k_p3">
+<summary>
+td1k_p3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedPt3">
+<summary>
+lblLastUpdatedPt3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl1kp3">
+<summary>
+lbl1kp3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label23">
+<summary>
+Label23 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td1k_p4">
+<summary>
+td1k_p4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedPt4">
+<summary>
+lblLastUpdatedPt4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl1kp4">
+<summary>
+lbl1kp4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label24">
+<summary>
+Label24 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td1k_temp">
+<summary>
+td1k_temp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedTemp1K">
+<summary>
+lblLastUpdatedTemp1K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl1ktemp">
+<summary>
+lbl1ktemp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label21">
+<summary>
+Label21 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td1k_hum">
+<summary>
+td1k_hum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedHum1K">
+<summary>
+lblLastUpdatedHum1K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label12">
+<summary>
+Label12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl1khum">
+<summary>
+lbl1khum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label25">
+<summary>
+Label25 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td10k_p5">
+<summary>
+td10k_p5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedPt5">
+<summary>
+lblLastUpdatedPt5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label13">
+<summary>
+Label13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblPt5">
+<summary>
+lblPt5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl10kp5">
+<summary>
+lbl10kp5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label14">
+<summary>
+Label14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td10k_p6">
+<summary>
+td10k_p6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedPt6">
+<summary>
+lblLastUpdatedPt6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label15">
+<summary>
+Label15 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblPt6">
+<summary>
+lblPt6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl10kp6">
+<summary>
+lbl10kp6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label16">
+<summary>
+Label16 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td10k_temp">
+<summary>
+td10k_temp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedTemp10K">
+<summary>
+lblLastUpdatedTemp10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label17">
+<summary>
+Label17 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label18">
+<summary>
+Label18 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl10ktemp">
+<summary>
+lbl10ktemp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label26">
+<summary>
+Label26 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._td10k_hum">
+<summary>
+td10k_hum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblLastUpdatedHum10K">
+<summary>
+lblLastUpdatedHum10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label19">
+<summary>
+Label19 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label20">
+<summary>
+Label20 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbl10khum">
+<summary>
+lbl10khum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._Label27">
+<summary>
+Label27 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlog1">
+<summary>
+tdlog1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPoint1">
+<summary>
+lbleventlogPoint1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogDate1">
+<summary>
+lbleventlogDate1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogTime1">
+<summary>
+lbleventlogTime1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPC1">
+<summary>
+lbleventlogPC1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlog2">
+<summary>
+tdlog2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPoint2">
+<summary>
+lbleventlogPoint2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogDate2">
+<summary>
+lbleventlogDate2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogTime2">
+<summary>
+lbleventlogTime2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPC2">
+<summary>
+lbleventlogPC2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlog3">
+<summary>
+tdlog3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPoint3">
+<summary>
+lbleventlogPoint3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogDate3">
+<summary>
+lbleventlogDate3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogTime3">
+<summary>
+lbleventlogTime3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPC3">
+<summary>
+lbleventlogPC3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlog4">
+<summary>
+tdlog4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPoint4">
+<summary>
+lbleventlogPoint4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogDate4">
+<summary>
+lbleventlogDate4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogTime4">
+<summary>
+lbleventlogTime4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPC4">
+<summary>
+lbleventlogPC4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlogTemp1K">
+<summary>
+tdlogTemp1K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_temp1k_point">
+<summary>
+lbleventlog_temp1k_point control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_temp1k_date">
+<summary>
+lbleventlog_temp1k_date control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_temp1k_time">
+<summary>
+lbleventlog_temp1k_time control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_temp1k_pc">
+<summary>
+lbleventlog_temp1k_pc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlogHum1K">
+<summary>
+tdlogHum1K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_Hum1k_point">
+<summary>
+lbleventlog_Hum1k_point control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_Hum1k_date">
+<summary>
+lbleventlog_Hum1k_date control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_Hum1k_time">
+<summary>
+lbleventlog_Hum1k_time control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_Hum1k_pc">
+<summary>
+lbleventlog_Hum1k_pc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlog5">
+<summary>
+tdlog5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPoint5">
+<summary>
+lbleventlogPoint5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogDate5">
+<summary>
+lbleventlogDate5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogTime5">
+<summary>
+lbleventlogTime5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPC5">
+<summary>
+lbleventlogPC5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlog6">
+<summary>
+tdlog6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPoint6">
+<summary>
+lbleventlogPoint6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogDate6">
+<summary>
+lbleventlogDate6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogTime6">
+<summary>
+lbleventlogTime6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlogPC6">
+<summary>
+lbleventlogPC6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlogTemp10K">
+<summary>
+tdlogTemp10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_temp10k_point">
+<summary>
+lbleventlog_temp10k_point control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_temp10k_date">
+<summary>
+lbleventlog_temp10k_date control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_temp10k_time">
+<summary>
+lbleventlog_temp10k_time control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_temp10k_pc">
+<summary>
+lbleventlog_temp10k_pc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._tdlogHum10K">
+<summary>
+tdlogHum10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_Hum10k_point">
+<summary>
+lbleventlog_Hum10k_point control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_Hum10k_date">
+<summary>
+lbleventlog_Hum10k_date control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_Hum10k_time">
+<summary>
+lbleventlog_Hum10k_time control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lbleventlog_Hum10k_pc">
+<summary>
+lbleventlog_Hum10k_pc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._pnl">
+<summary>
+pnl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblParticleCountMin">
+<summary>
+lblParticleCountMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblParticleCountMax">
+<summary>
+lblParticleCountMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblTemperatureMin">
+<summary>
+lblTemperatureMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblTemperatureMax">
+<summary>
+lblTemperatureMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblTemperatureMin_10K">
+<summary>
+lblTemperatureMin_10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblTemperatureMax_10K">
+<summary>
+lblTemperatureMax_10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblHumidityMin">
+<summary>
+lblHumidityMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblHumidityMax">
+<summary>
+lblHumidityMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb._Default._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.MasterPage._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.MasterPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.MasterPage._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.MasterPage._imgbtn">
+<summary>
+imgbtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.MasterPage._lblPageTitle">
+<summary>
+lblPageTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.MasterPage._lblLastUpdate">
+<summary>
+lblLastUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.MasterPage._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._btndaily">
+<summary>
+btndaily control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._btnweekly">
+<summary>
+btnweekly control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._btnrefresh">
+<summary>
+btnrefresh control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._btnexport">
+<summary>
+btnexport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._btnexportdisabled">
+<summary>
+btnexportdisabled control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._dvddldate">
+<summary>
+dvddldate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._txtDateFrom">
+<summary>
+txtDateFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._rfvPCFrom">
+<summary>
+rfvPCFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._txtDateTo">
+<summary>
+txtDateTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._rfvPCTo">
+<summary>
+rfvPCTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._btnsearch">
+<summary>
+btnsearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._hdfPeriod">
+<summary>
+hdfPeriod control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._Pt1Chart">
+<summary>
+Pt1Chart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._hfDateTime">
+<summary>
+hfDateTime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._hfSensor">
+<summary>
+hfSensor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._hfValue">
+<summary>
+hfValue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._lbl1KNoData">
+<summary>
+lbl1KNoData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._lbl10KNoData">
+<summary>
+lbl10KNoData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._div1KChart">
+<summary>
+div1KChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._lt1kChart">
+<summary>
+lt1kChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._gv1KAlarm">
+<summary>
+gv1KAlarm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._dgPCounter_1KAlarm">
+<summary>
+dgPCounter_1KAlarm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._lbl1KEmptyData">
+<summary>
+lbl1KEmptyData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._div10KChart">
+<summary>
+div10KChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._lt10kChart">
+<summary>
+lt10kChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._gv10KAlarm">
+<summary>
+gv10KAlarm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._dgPCounter_10KAlarm">
+<summary>
+dgPCounter_10KAlarm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._lbl10KEmptyData">
+<summary>
+lbl10KEmptyData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._divProgress">
+<summary>
+divProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._Progresscontainer">
+<summary>
+Progresscontainer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.ParticleCounter._gvPCExport">
+<summary>
+gvPCExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._btnShow">
+<summary>
+btnShow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._ModalPopupExt">
+<summary>
+ModalPopupExt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._ModalPanel">
+<summary>
+ModalPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtPassword">
+<summary>
+txtPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvLogin">
+<summary>
+rfvLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._btnlogin">
+<summary>
+btnlogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._pnlSetLimit">
+<summary>
+pnlSetLimit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvParticleCountMin">
+<summary>
+rfvParticleCountMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtParticleCountMin">
+<summary>
+txtParticleCountMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvParticleCountMax">
+<summary>
+rfvParticleCountMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtParticleCountMax">
+<summary>
+txtParticleCountMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvTemperatureMin">
+<summary>
+rfvTemperatureMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtTemperatureMin">
+<summary>
+txtTemperatureMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvTemperatureMax">
+<summary>
+rfvTemperatureMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtTemperatureMax">
+<summary>
+txtTemperatureMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvTemperatureMin10K">
+<summary>
+rfvTemperatureMin10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtTemperatureMin10K">
+<summary>
+txtTemperatureMin10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvTemperatureMax10K">
+<summary>
+rfvTemperatureMax10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtTemperatureMax10K">
+<summary>
+txtTemperatureMax10K control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvHumidityMin">
+<summary>
+rfvHumidityMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtHumidityMin">
+<summary>
+txtHumidityMin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvHumidityMax">
+<summary>
+rfvHumidityMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtHumidityMax">
+<summary>
+txtHumidityMax control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._lblMsgLimit">
+<summary>
+lblMsgLimit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._pnEmail">
+<summary>
+pnEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._gv">
+<summary>
+gv control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvEmailTimePc">
+<summary>
+rfvEmailTimePc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtEmailTimePc">
+<summary>
+txtEmailTimePc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvEmailTimeTemp">
+<summary>
+rfvEmailTimeTemp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtEmailTimeTemp">
+<summary>
+txtEmailTimeTemp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._rfvEmailTimeHum">
+<summary>
+rfvEmailTimeHum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._txtEmailTimeHum">
+<summary>
+txtEmailTimeHum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._btnEmailTimeSubmit">
+<summary>
+btnEmailTimeSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Setting._lblMessage">
+<summary>
+lblMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._btndaily">
+<summary>
+btndaily control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._btnweekly">
+<summary>
+btnweekly control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._btnrefresh">
+<summary>
+btnrefresh control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._btnexport">
+<summary>
+btnexport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._btnexportdisabled">
+<summary>
+btnexportdisabled control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._dvddldate">
+<summary>
+dvddldate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._txtDateFrom">
+<summary>
+txtDateFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._rfvTempFrom">
+<summary>
+rfvTempFrom control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._txtDateTo">
+<summary>
+txtDateTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._rfvTempTo">
+<summary>
+rfvTempTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._btnsearch">
+<summary>
+btnsearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._hdfPeriod">
+<summary>
+hdfPeriod control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._lblTempNoData">
+<summary>
+lblTempNoData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._lblHumNoData">
+<summary>
+lblHumNoData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._divTempChart">
+<summary>
+divTempChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._ltTempChart">
+<summary>
+ltTempChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._gvTempAlarm">
+<summary>
+gvTempAlarm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._dgTemp">
+<summary>
+dgTemp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._lblTempEmptyData">
+<summary>
+lblTempEmptyData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._divProgress">
+<summary>
+divProgress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._Progresscontainer">
+<summary>
+Progresscontainer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._divHumChart">
+<summary>
+divHumChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._ltHumChart">
+<summary>
+ltHumChart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._gvHumAlarm">
+<summary>
+gvHumAlarm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._dgHum">
+<summary>
+dgHum control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._lblHumEmptyData">
+<summary>
+lblHumEmptyData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.TempHum._gvTempHumExport">
+<summary>
+gvTempHumExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.testcalendar._txtDate">
+<summary>
+txtDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SensorWeb.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
