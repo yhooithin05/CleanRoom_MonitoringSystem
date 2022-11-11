@@ -243,9 +243,6 @@ Module Module1
         End If
 
 
-        log.WriteLine(text)
-        log.Close()
-
     End Sub
 End Module
 
