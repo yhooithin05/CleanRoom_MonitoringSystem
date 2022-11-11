@@ -1,0 +1,176 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="SensorWeb.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Clean Room Monitoring System</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Web Page Icon -->
+    <link rel="shortcut icon" href="~/images/favicon.ico" />    
+    
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <!-- Local CSS -->
+    <link href="Style/default.css" rel="stylesheet" type="text/css" />
+    <link href="Style/control.css" rel="stylesheet" type="text/css" />
+   
+
+<!-- NavBar CSS -->   
+<style type="text/css">
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #E90029;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover 
+{
+  /* background-color: #000000;*/
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.w3-container,.w3-panel{padding:0.01em 10px}.w3-panel{margin-top:10px;}
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
+
+#outer  
+{
+    display:inline-block;
+    width: 800px; 
+}
+#inner { width: 500px; margin: 0 auto; }
+
+.iconbtn {
+  background-color: #524f56;
+  border: none;
+  color: white;
+  padding: 20px 16px;
+  font-size: 30px;
+  cursor: pointer;
+  height: 50px;
+}
+
+#lblLastUpdate {
+    vertical-align: right;
+}
+}
+</style>
+
+    <asp:ContentPlaceHolder id="head" runat="server" />
+</head>
+<body>
+<form id="form1" runat="server">
+
+<!-- HEADER -->
+<div class="header">
+<table width="100%" style="border: 0px none #FFFFFF; vertical-align: middle;" class="tbHeader">
+<tr>
+    <td class="tbHeader"><h1>Clean Room Monitoring System</h1></td>
+</tr>
+</table>
+
+</div>
+
+
+
+
+
+<!-- NAVIGATION BAR -->
+<%--<div class="navbar" id="navbar">--%>
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!-- Create for Others -->
+
+  <a href="Default.aspx"  class="tbSubHeader">DASHBOARD</a>
+
+  <a href="ParticleCounter.aspx" class="tbSubHeader">PARTICLE COUNTER</a>
+
+  <a href="TempHum.aspx" class="tbSubHeader">TEMPERATURE / HUMIDITY</a>
+
+
+  <a href="Setting.aspx" class="tbSubHeader">SETTING</a>
+
+</div>
+  <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods='true' />
+
+<table width="100%" >
+<tr>
+<td colspan="2" class="tbSubHeader"  bgcolor="#524f56" style="border:0"><span style="font-size:35px;cursor:pointer" onclick="openNav();return false;">
+    <button runat="server" id="imgbtn" class="iconbtn fa fa-bars" /></span>
+    <asp:Label ID="lblPageTitle" class="tbSubHeader" runat="server" style="font-size:25px;line-height: 70px" ForeColor="White"/>
+     <asp:Label ID="lblLastUpdate" class="tbSubHeader" runat="server" style="float:right;font-size:25px;line-height: 70px;margin-right: 20px;" ForeColor="White" />
+</td>
+</tr>
+</table>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script type="text/javascript">
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+
+    var myVar = setInterval(function () { myTimer() }, 1000);
+
+
+    function myTimer() {
+        var x = new Date();       
+        var dd = x.getDate();
+        var month = x.toLocaleString('default', { month: 'short' });
+        var yyyy = x.getFullYear();
+        var x1 = dd + "-" + month + "-" + yyyy;
+        x1 = "Current Time: " + x1 + " " + x.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }); //remove seconds
+        document.getElementById("lblLastUpdate").innerHTML = x1;
+    }
+
+</script>
+<div class="content">
+   <%-- <h2><asp:Label ID="lblPageTitle" runat="server" /></h2>--%>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+        
+        
+</div>
+
+
+</form>
+</body>
+</html>
