@@ -169,11 +169,18 @@ Module Program
 
         Dim logFilePath As String = ConfigurationManager.AppSettings("Sensor_LogFile_Filepath").ToString()
         Dim str As String = "" & logFilePath & "log_" & today & ".txt"
+        'Auto generate textfile if not exist
         If Not File.Exists("" & logFilePath & "log_" & today & ".txt") Then
-            log = New StreamWriter("LogFile/log_" & today & ".txt")
+            Using stream As StreamWriter = New StreamWriter(str, False)
+                stream.Write("LogFile/log_" & today & ".txt")
+                stream.Close()
+            End Using
         Else
             log = File.AppendText("" & logFilePath & "log_" & today & ".txt")
+            log.WriteLine(text)
+            log.Close()
         End If
+
 
         log.WriteLine(text)
         log.Close()
