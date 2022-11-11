@@ -1,1 +1,78 @@
+﻿/*** CHECKBOX ***/
+.BigCheckBox input 
+{
+    width:20px; 
+    height:20px;
+    }
+    
+input {
+    
+    font-size:larger;
+}
 
+
+.LabelBasic {
+    font-size:larger;
+}
+
+/* Drop Down List */
+select {
+    font-size: larger;
+ }
+
+/* GridView, Table */
+
+.Grid, .Grid table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    
+}
+
+/* temporary close this 1st because datepicker use this will run format
+.Grid th, .Grid th a, table th, table th a
+{
+    background-color: #891518;      
+    color:White;
+    overflow: scroll;
+       
+}*/
+
+    .Grid th, .Grid td, table td, table th {
+        /* padding: 5px;*/
+        border: 1px solid #ccc;
+    }
+
+.Grid a, table a 
+{
+    color: #343434;
+}
+
+.Grid a:visited, table a:visited {
+    color: #9c9c9c;
+    }
+    
+
+
+
+/* Header Master Page*/
+        .tbHeader 
+{
+    border: 0px solid White;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    font-family: "Arial Narrow", Arial, sans-serif;  
+    font-weight:bold;
+}
+
+/* SubHeader */
+    .tbSubHeader 
+    {       
+        font-family: "Arial Narrow", Arial, sans-serif;  
+        font-weight:bold;
+        color:White;
+    }
+    
+    
+/* Default.aspx css */
+       

@@ -1,0 +1,112 @@
+﻿body 
+{
+    font-family:"Arial", Arial, sans-serif;
+    font-size:small;   
+    margin: 0;
+    padding: 0;
+    background-color: #D1D1D3;
+}
+    
+h1
+{
+    margin:0px;
+}
+    
+h2
+{
+    font-size:smaller;
+    font-weight:bold;
+}
+    
+div .no-padding 
+{
+  padding:0;
+}
+    
+table
+{
+    
+    }
+td
+{
+    vertical-align:middle;
+}
+    
+a 
+{
+     text-decoration: none;
+     }
+
+a:hover, .Grid a:hover {
+	background-color: #891518;
+	color: White;
+	text-decoration: none;
+}    
+
+
+    
+/*** BUTTON ***/
+
+.button
+{
+    border: none;
+}
+
+.buttonClass
+{
+    padding: 20px 20px;
+    text-decoration: none;
+    border: solid 1px Black;
+    background-color:  ThreeDFace;
+    color: Black;
+    display: inline-block;
+    font-size: large;
+}
+.buttonClass:hover
+{
+    border: solid 1px Black;
+    background-color: #acacac;
+}
+
+.MenuButtonClass
+{
+    width:200px;
+    height:100px;
+    text-decoration: none;
+    font-size: larger;
+    white-space:normal;
+}
+
+.MenuButtonClass:hover
+{
+    border: solid 1px Black;
+    background-color: #ababab;
+}
+  
+.buttonNext {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    height: 100px; 
+}
+
+input[type=submit]
+{
+    background-color: #DC143C; /* Red */
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;   
+}
+
+input[type=submit]:hover 
+{
+    background-color: black;
+}
